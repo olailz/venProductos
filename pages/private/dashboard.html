@@ -3,18 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicio</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="../../css/style.css">
 </head>
 <body>
     <header>
         <nav>
             <div class="logo">VenProductos</div>
             <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="pages/public/servicios.html">Servicios</a></li>
-                <li><a href="pages/public/galeria.html">Galería</a></li>
-                <li><a href="pages/public/login.html">Iniciar Sesión</a></li>
+                <li><a href="#" onclick="cerrarSesion()">Cerrar Sesión</a></li>
             </ul>
             <!-- Con el div y los span crearemos un icono de tipo hamburguesa -->
             <div class="hamburguesa">
@@ -27,14 +24,12 @@
 
     <main>
         <section>
-            <h1>Bienvenido a VenProductos</h1>
-            <p>Bienvenido a nuestro sitio web.</p>
+            <h1>Bienvenido al Dashboard</h1>
+            <p>Has iniciado sesión correctamente</p>
         </section>
     </main>
 
-    <footer>
-        <p>2025 - Todos los derechos reservados</p>
-    </footer>
-    <script src="js/script.js"></script>
+    <script src="../../js/script.js"></script>
+    <script src="../../js/logout.js"></script>
 </body>
 </html>
