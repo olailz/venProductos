@@ -63,7 +63,7 @@ nav ul li a:hover{
 /* Estilos para el main */
 main{
     max-width: 1100px;
-    margin: 80px auto 0px;
+    margin: 80px 0px 0px 0px;
     padding: 20px;
     animation: entrada 1s;
 }
