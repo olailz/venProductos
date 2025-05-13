@@ -39,6 +39,16 @@ header{
     top: 0;
     z-index: 20;
 }
+.start-text{
+    background: linear-gradient(90deg,#4d3144 0%, #343d5c 50%, #1d3257 100%);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+.start-text h1{
+    color:  #4FC3F7;
+}
+.start-text p{
+    color: white;
+}
 nav{
     display: flex;
     justify-content: space-between;
