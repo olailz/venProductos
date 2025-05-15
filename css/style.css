@@ -44,7 +44,8 @@ header{
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
 }
 .start-text h1{
-    color:  #4FC3F7;
+    text-align: center;
+    color:  white;
 }
 .start-text p{
     color: white;
@@ -127,5 +128,35 @@ footer{
     }
     nav .logo{
         font-size: 6vw;
+    }
+}
+.fondo-seccion {
+    margin-top: 40px;
+    background: linear-gradient(90deg,#4d3144 0%, #343d5c 50%, #1d3257 100%);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+.fondo-seccion h1{
+    color: white;
+    text-align: center;
+}
+.galeria{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+.galeria img{
+    background-color: white;
+    border: 1px solid rgb(224, 224, 224);
+    border-radius: 8px;
+    width: 300px;
+    text-align: center;
+    object-fit: cover;
+    height: 300px;
+}
+@media(max-width: 600px){
+    .galeria img{
+        object-fit: contain;
+        width: 100%;
     }
 }
