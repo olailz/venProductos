@@ -112,7 +112,8 @@ footer{
     nav ul{
         display: none;
         flex-direction: column;
-        background-color: rgb(33, 75, 201);
+        background: linear-gradient(90deg,#4d3144 0%, #343d5c 50%, #1d3257 100%);
+        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
         position: absolute;
         top: 60px;
         right: 10px;
@@ -122,6 +123,7 @@ footer{
     }
     .hamburguesa{
         display: flex;
+        
     }
     nav ul.verMenu{
         display: flex;
@@ -129,6 +131,11 @@ footer{
     nav .logo{
         font-size: 6vw;
     }
+    .hamburguesa span {
+  height: 4px;
+  background-color: white;
+  transition: 0.3s ease;
+}
 }
 .fondo-seccion {
     margin-top: 40px;
