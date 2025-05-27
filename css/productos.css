@@ -12,8 +12,6 @@
     gap: 20px;
     flex-wrap: wrap;
     margin-top: 30px;
-    background: linear-gradient(90deg,#4d3144 0%, #343d5c 50%, #1d3257 100%);
-    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
     color: white;
 }
 .producto{
@@ -43,6 +41,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 4.5px;
 }
 .producto button{
     background-color: #03e9f4;
@@ -58,7 +57,9 @@
     box-shadow: 0 6px 20px #0000001a;
     color: white;
 }
-
+.button-products{
+    padding: 25px;
+}
 #carrito{
     margin-top: 40px;
     padding: 20px;
@@ -68,6 +69,7 @@
     border-radius: 8px;
     color: white;
 }
+
 #carrito ul{
     list-style: none;
 }
