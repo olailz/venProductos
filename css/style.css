@@ -131,9 +131,9 @@ footer{
     nav .logo{
         font-size: 8vw;
     }
-/*     nav ul li a{
-    font-size: 2.4vw;
-} */
+    nav ul li a{
+    font-size: 6vw;
+}
 }
 .fondo-seccion {
     margin-top: 40px;
